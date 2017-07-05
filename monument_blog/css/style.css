@@ -12,18 +12,45 @@ body {
 	text-align: center;
 	color: #44545E;
 	margin: 0 auto;
-	max-width: 900px;
-	padding: 30px;
+	width: 100%;
+	padding-top: 25px;
 	float: center;
+	line-height: 1.7em;
 }
+
+
+div {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+article {
+	width: 72%;
+	margin: 40px;
+	margin-left: 120px;
+}
+
+aside {
+	width: 28%;
+	margin: 40px;
+	margin-right: 120px;
+	text-align: left;
+}
+
 h1 {
 	font-size: 37px;
 	letter-spacing: .72em;
-	padding: 90px;
+	padding: 120px;
+}
+h1 a {
+	color: white;
 }
 h2 {
 	font-size: 23px;
 	text-align: left;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 h3 {
 	font-size: 18px;
@@ -47,32 +74,43 @@ nav a {
 	padding-right: 40px;
 }
 
-aside {
-	text-align: left;
-	margin: 70px auto;
-}
+
 
 aside li a {
 	text-transform: capitalize;
 	color: #7B98AA;
-	line-height: 200%
+	line-height: 250%
+}
+
+header {
+	background: url('http://i.imgur.com/2SCOTJN.jpg');
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 320px;
 }
 
 footer {
 	background-color: #CDF3F6;
 	color: #44545E;
 	margin: 0 auto;
-	max-width: 900px;
-	padding: 20px;
+	margin-left: 1px;
+	margin-right: 1px;
+	max-width: 100%;
+	padding: 20px 0 20px 0;
+}
+
+footer i{
+	margin: 20px;
 }
 
 footer a {
-	padding: 20px 40px 20px 40px;
+	padding: 20px;
 }
 
 footer p {
 	text-align: center;
-	padding: 10px;
+	padding: 20px;
 }
 
 hr {
@@ -83,6 +121,31 @@ hr {
 	margin: 1em 0;
 	padding: 0;
 }
+
+
+section {
+	width: 50%;
+}
+
+section input {
+	width: 300px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 2px;
+	text-transform: uppercase;
+	box-sizing:border-box;
+	font-family: "raleway";
+	font-weight: 600;
+	text-align: center;
+}
+
+.work {
+	width: 300px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 1.5px solid #44545E;
+}
+
 
 /* Fix for responsive images */
 img {
